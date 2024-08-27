@@ -3,7 +3,8 @@ html {
     padding: 0;
     margin: 0;
 }
-body, html {
+body,
+html {
     margin: 0;
     padding: 0;
     overflow-x: hidden; /* Menyembunyikan scroll horizontal */
@@ -151,11 +152,13 @@ body {
     margin-top: 5rem;
     /* Menambah padding agar lebih rapi */
 }
-.whoweare h1, .ayam h1{
+.whoweare h1,
+.ayam h1 {
     font-size: 45px !important;
     font-weight: bold;
 }
-.whoweare p , .ayam p{
+.whoweare p,
+.ayam p {
     font-size: 20px !important;
 }
 
@@ -311,30 +314,25 @@ body {
 }
 
 .box {
-   background-color: rgb(212, 212, 212) ;
-   margin-bottom: 2rem;
+    background-color: rgb(212, 212, 212);
+    margin-bottom: 2rem;
 }
 .box .nilai {
-    background-color:white;
-    border-radius: 20PX 0 0 20px;
+    background-color: white;
+    border-radius: 20px 0 0 20px;
     box-shadow: 10px 10px 20px black;
     border-top: black 1px solid;
     border-left: black 1px solid;
-    
 }
 .box .isi {
-    background-color:rgb(193, 193, 193);
-    border-radius: 0 20PX 20px 0;
+    background-color: rgb(193, 193, 193);
+    border-radius: 0 20px 20px 0;
     box-shadow: 10px 10px 20px black;
-    
 }
-
-
 
 .box h1 {
     font-size: 2rem; /* Slightly larger text for elegance */
     color: black; /* Bootstrap primary blue color */
-    
 }
 
 .box p {
@@ -360,7 +358,7 @@ body {
     font-weight: bold;
 }
 
-.content h1,  {
+.content h1 {
     font-size: 80px;
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     -webkit-text-stroke-color: #397600;
@@ -574,7 +572,7 @@ a {
 .thanks .main-layout p {
     font-size: 36px !important;
 }
-.thanks .btn-cust  {
+.thanks .btn-cust {
     font-size: 38px !important;
     border-radius: 50px;
 }
