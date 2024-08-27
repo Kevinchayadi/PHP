@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Support\Facades\Artisan;
 use App\Http\Controllers\contact;
 use Illuminate\Support\Facades\Route;
 
@@ -51,3 +52,4 @@ Route::get('/ayam', function () {
 Route::get('/ikan', function () {
     return view('content.ikan');
 });
+
