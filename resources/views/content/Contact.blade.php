@@ -1,15 +1,15 @@
 @extends('Template.main')
 
-@section('tittle', 'Contact-Us')
+@section('tittle', 'Hubungi-Kami')
 
 @section('content')
-@include('Template.headers', ['temp' => 'Contact Us'])
+@include('Template.headers', ['temp' => 'Hubungi Kami'])
 
 <div class="contact p-5">
     <div class="container-fluid">
         <div class="align-items-center  row main-layout  px-3">
             <div class="col-12 col-lg-6  same-height pt-3 ">
-                <div class="findus-board" data-aos="zoom-in-right">
+                <div class="findus-board" data-aos="zoom-in-right"data-aos-delay="550">
                     <h3 class="text-center">Find Us</h3>
                     <h1>Alamat Kantor:</h1>
                     <p> AKR Tower Lt 12C, Jalan Panjang No 5, RT.11/RW.10, Kebon Jeruk, RT.11/RW.10, Kb. Jeruk, Kec. Kb. Jeruk, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta</p>
@@ -21,9 +21,9 @@
                 </div>
             </div>
             
-            <div class="col-12 col-lg-6 same-height   py-3" data-aos="zoom-out-left">
-                @csrf
-                <form action="">
+            <div class="col-12 col-lg-6 same-height   py-3" data-aos="zoom-out-left"data-aos-delay="550">
+                <form action="/contact-us" method="POST">
+                    @csrf
                     <div class="row  wooden-board">
                         <div>
                             <h3 class="text-center">Contact Us</h3>
@@ -31,11 +31,11 @@
                         
                         <div class="col-6  d-flex flex-column my-2 ">
                             <label for="">Nama Depan</label>
-                            <input type="text" name="firt_name" placeholder="First Name" class="form-control" required>
+                            <input type="text" name="first_name" placeholder="Nama Depan" class="form-control" required>
                         </div>
                         <div class="col-6 d-flex flex-column my-2">
                             <label for="">Nama Belakang</label>
-                            <input type="text" name="last_name" placeholder="Last Name" class="form-control">
+                            <input type="text" name="last_name" placeholder="Nama Belakang" class="form-control">
                         </div>
                         <div class="col-6 d-flex flex-column my-2">
                             <label for="">Email</label>
@@ -43,15 +43,15 @@
                         </div>
                         <div class="col-6 d-flex flex-column my-2">
                             <label for="">No. Telepon</label>
-                            <input type="text" name="Phone" placeholder="Phone" class="form-control">
+                            <input type="text" name="Phone" placeholder="No. Telepon" class="form-control">
                         </div>
                         <div class="col-12 d-flex flex-column my-2">
-                            <label for="">Email</label>
-                            <input type="text" name="subject" placeholder="Subject" required>
+                            <label for="">Judul</label>
+                            <input type="text" name="subject" placeholder="Judul" required>
                         </div>
                         <div class="col-12 d-flex flex-column my-2">
                             <label for="">pesan</label>
-                            <textarea name="message" placeholder="Message" class="form-control" required></textarea>
+                            <textarea name="message" placeholder="Pesan" class="form-control" required></textarea>
                         </div>
                         <div class="col-12 text-center my-2">
                             <button type="submit" class="btn-cust btn-size">Send</button>

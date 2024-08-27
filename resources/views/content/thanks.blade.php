@@ -10,9 +10,9 @@
         <div class="align-items-center  row main-layout  px-3">
             <div class="text-center d-flex flex-column justify-content-center  same-height pt-3 ">
                 <h3 class="gradient-text">Terima Kasih Telah Menghubungi Kami</h3>
-                <p>kami akan menghubungimu secepatnya!</p>
-                <div>
-                    <a href="/home" class="btn-cust">Kembali ke halaman utama</a>
+                <p class="text-center">kami akan menghubungimu secepatnya!</p>
+                <div class="p-5">
+                    <a href="/home" class="btn-cust btn-animate">Kembali ke halaman utama</a>
                 </div>
             </div>
         </div> 

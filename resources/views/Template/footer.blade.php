@@ -11,12 +11,12 @@
             <p>Email: info@parunghijau.com</p>
         </div>
         <!-- Kolom Ketiga: Link Konten Website -->
-        <div class="col-md-4 links  align-content-center cust mt-2 mb-3 ">
-            <h5>Content</h5>
-            <a href="/home">Home</a>
-            <a href="/about-us">About Us</a>
-            <a href="/our-product">Our Products</a>
-            <a href="/contact-us">Contact Us</a>
+        <div class="col-md-4 links  align-content-center  cust mt-2 mb-3 ">
+            <h5>Isi Konten</h5>
+            <a href="/home">Beranda</a>
+            <a href="/about-us">Tentang Kami</a>
+            <a href="/our-product">Produk Kami</a>
+            <a href="/contact-us">Hubungi Kami</a>
         </div>
     </div>
 </div>

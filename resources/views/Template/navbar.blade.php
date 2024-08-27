@@ -14,16 +14,16 @@
         <div class="collapse navbar-collapse bg-edit" id="navbarNav">
             <ul class="navbar-nav  ms-auto mx-5 ">
                 <li class="nav-item ms-2">
-                    <a class="nav-link @if(request()->route()->uri == 'home') active @endif" href="/home">Home</a>
+                    <a class="nav-link @if(request()->route()->uri == 'home') active @endif" href="/home">Beranda</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link @if(request()->route()->uri == 'about-us') active @endif" href="/about-us">About Us</a>
+                    <a class="nav-link @if(request()->route()->uri == 'about-us') active @endif" href="/about-us">Tentang Kami</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link @if(request()->route()->uri == 'our-product') active @endif" href="/our-product">Our Product</a>
+                    <a class="nav-link @if(request()->route()->uri == 'our-product') active @endif" href="/our-product">Produk Kami</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link @if(request()->route()->uri == 'contact-us') active @endif" href="/contact-us">Contact Us</a>
+                    <a class="nav-link @if(request()->route()->uri == 'contact-us') active @endif" href="/contact-us">Hubungi Kami</a>
                 </li>
             </ul>
         </div>

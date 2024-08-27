@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\contact;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -38,11 +39,15 @@ Route::get('/our-product', function () {
 Route::get('/contact-us', function () {
     return view('content.Contact');
 });
+Route::post('/contact-us', [contact::class, 'sendEmail'])->name('contact.send');
 
-Route::get('/temp', function () {
+Route::get('/ThankYou', function () {
     return view('content.thanks');
 });
 
 Route::get('/ayam', function () {
     return view('content.ayam');
+});
+Route::get('/ikan', function () {
+    return view('content.ikan');
 });

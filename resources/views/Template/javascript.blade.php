@@ -98,3 +98,40 @@
         lifeLike: true, // Efek mengetik yang alami
     }).go();
 </script>
+
+<script>
+    // Select the button element
+    const button = document.querySelector(".btn-animate");
+
+    // GSAP timeline for continuous up and down motion
+    const moveUpDown = gsap.timeline({
+        repeat: -1,
+        yoyo: true,
+        ease: "power1.inOut"
+    });
+    moveUpDown.to(button, {
+        y: -20,
+        duration: 1
+    });
+
+    // Event listener for hover
+    button.addEventListener("mouseenter", () => {
+        // Pause the continuous movement and enlarge the button
+        moveUpDown.pause();
+        gsap.to(button, {
+            scale: 1.2,
+            duration: 0.3,
+            ease: "power1.out"
+        });
+    });
+
+    button.addEventListener("mouseleave", () => {
+        // Resume the continuous movement and reset the button size
+        gsap.to(button, {
+            scale: 1,
+            duration: 0.3,
+            ease: "power1.in"
+        });
+        moveUpDown.resume();
+    });
+</script>

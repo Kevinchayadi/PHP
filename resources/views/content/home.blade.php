@@ -1,6 +1,6 @@
 @extends('Template.main')
 
-@section('tittle', 'Home')
+@section('tittle', 'Beranda')
 
 @section('content')
     {{-- <div class="hero ">
@@ -36,15 +36,12 @@
     <section id="whoweare" class="whoweare" data-aos="fade-up">
         <div class="container my-5 p-5 text-center border-bottom">
             <div class="col">
-                <h1>Who We Are?</h1>
+                <strong><h1>Tentang Kami</h1></strong>
                 <p>
-                    Parung hijau perkasa adalah pemimpin dalam industri peternakan dan pengelolaan bahan organik, berkomitmen
-                    untuk menyediakan produk-produk berkualitas tinggi sambil menjaga kelestarian lingkungan. Dengan pengalaman
-                    bertahun-tahun, kami mengoperasikan peternakan modern yang menghasilkan daging, telur, dan ikan yang sehat
-                    dan bergizi. Selain itu, kami memanfaatkan limbah organik dari peternakan untuk diolah menjadi pupuk organik
-                    berkualitas tinggi, mendukung praktik pertanian berkelanjutan dan memperkuat komitmen kami terhadap
-                    keberlanjutan lingkungan. Kami bangga menjadi bagian dari solusi pertanian masa depan yang lebih ramah
-                    lingkungan dan berkelanjutan.
+                    PT Parung Hijau Perkasa, yang berlokasi di Bogor, Jawa Barat, adalah perusahaan yang lahir dari semangat inovasi dan keberlanjutan. Didirikan pada 27 Maret 2020, perusahaan ini berkomitmen untuk berkontribusi pada peningkatan ekonomi lokal dan menjaga keseimbangan ekosistem melalui praktik pertanian, peternakan, perikanan, dan pengelolaan sampah yang ramah lingkungan.
+                </p>
+                <p>
+                    Di tengah suburnya tanah Bogor, PT Parung Hijau Perkasa memanfaatkan potensi lokal dengan memberdayakan masyarakat setempat dan menerapkan teknologi modern yang berfokus pada keberlanjutan. Perusahaan ini bangga menjadi bagian dari komunitas yang dinamis dan turut serta dalam meningkatkan kesejahteraan ekonomi daerah serta menjaga kelestarian lingkungan untuk generasi mendatang.
                 </p>
                 <a href="/about" class="btn-cust">cari tahu lebih lanjut</a>
             </div>
@@ -56,10 +53,10 @@
         <div class="container-fluid d-flex text-center">
             <div class="product-homes">
                 <div class="row mx-2 mb-5 ">
-                    <h1 class="col-12">Our Product</h1>
+                    <h1 class="col-12" data-aos="fade-up">Our Product</h1>
                     <div class="col-12 col-lg-3 col-md-6 col-xs-12 my-3 d-flex justify-content-center card-product">
                         <div class="card card-style h-100" style="width: 18rem;">
-                            <img src="..." class="card-img-top" alt="...">
+                            <img src="{{ asset("../Img/pisang1.jpg") }}" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Sungrow</h5>
                                 <p class="card-text">Perkebunan pisang Cavendish kami menghasilkan buah dengan kualitas premium,
@@ -71,9 +68,9 @@
                     </div>
                     <div class="col-12 col-lg-3 col-md-6 col-xs-12 my-3 d-flex justify-content-center card-product">
                         <div class="card card-style h-100" style="width: 18rem;">
-                            <img src="..." class="card-img-top" alt="...">
+                            <img src="{{ asset("../Img/ayam1.jpg") }}" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <h5 class="card-title">Cidokom Chicken</h5>
+                                <h5 class="card-title">Adiluhung Chicken</h5>
                                 <p class="card-text">peternakan ayam kami menghasilkan daging dan telur berkualitas tinggi
                                     dengan menerapkan teknologi modern dan praktik terbaik. Kami berkomitmen untuk menyediakan
                                     produk unggas yang sehat dan bergizi bagi konsumen di seluruh pasar.</p>
@@ -83,9 +80,9 @@
                     </div>
                     <div class="col-12 col-lg-3 col-md-6 col-xs-12 my-3 d-flex justify-content-center card-product">
                         <div class="card card-style h-100" style="width: 18rem;">
-                            <img src="..." class="card-img-top" alt="...">
+                            <img src="{{ asset("../Img/ikan.png") }}" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <h5 class="card-title">Patin</h5>
+                                <h5 class="card-title">Adiluhung Patin</h5>
                                 <p class="card-text">kan patin kami berfokus pada produksi ikan dengan daging yang lembut dan
                                     kaya nutrisi. Kami menggunakan metode ramah lingkungan untuk memastikan hasil panen yang
                                     berkualitas dan berkelanjutan.</p>
@@ -95,7 +92,7 @@
                     </div>
                     <div class="col-12 col-lg-3 col-md-6 col-xs-12 my-3 d-flex justify-content-center card-product">
                         <div class="card card-style h-100" style="width: 18rem;">
-                            <img src="..." class="card-img-top" alt="...">
+                            <img src="{{ asset("../Img/waste1.png") }}" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Waste Management</h5>
                                 <p class="card-text">Kami mengelola limbah organik dari Restauran untuk diolah menjadi pupuk,
@@ -110,7 +107,7 @@
     </section>
 
     <div class="container-fluid  parallax text-center text-white ">
-        <h1 data-aos="fade-up">bergabung dengan kami mengurangi sampah organik!</h1>
+        <h1 data-aos="fade-up">Mari bergabung bersama kami mengelolah sampah organik!</h1>
     </div>
 
 
