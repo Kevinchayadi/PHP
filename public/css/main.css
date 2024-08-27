@@ -418,6 +418,9 @@ body {
     transition: transform 0.5s ease;
     /* Durasi transisi dan kecepatan */
 }
+.footer h1,.footer p{
+text-align: left !important;
+}
 
 .footer .links a:hover::after {
     transform: translateX(-50%) scaleX(1);
