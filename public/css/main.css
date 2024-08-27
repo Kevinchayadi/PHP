@@ -10,14 +10,14 @@ html {
     overflow-x: hidden; /* Menyembunyikan scroll horizontal */
 }
 
-p {
-    text-align: justify !important;
-}
-
 h1,
 h2,
 p {
     font-family: "Arial Narrow", Arial, sans-serif;
+
+}
+p{
+    text-align: justify;
 }
 
 body {
@@ -557,7 +557,7 @@ text-align: left !important;
 }
 
 .thanks h1,
-p,
+.thanks p,
 a {
     text-align: center !important;
     justify-content: center !important;
