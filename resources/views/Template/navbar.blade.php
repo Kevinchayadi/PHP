@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-edit navbar-transparan " data-bs-theme="dark">
     <div class="container-fluid">
         <a class="navbar-brand" href="/home">
-            <img src="{{ asset("../Img/logo php.png") }}" alt="" style="width: 60px; box-shadow: black 2px 2px 1px; border-radius: 50px">
+            <img src="{{ asset("../Img/logo php.png") }}" alt="Logo PT. Parung Hijau Perkasa" >
             <span class="navbar-brand-text">
                 <strong>ParungHijau<span class="perkasa-text">Perkasa</span></strong>
             </span>

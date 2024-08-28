@@ -1,0 +1,51 @@
+.aboutus p {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.misidanvisi .row .col-12 {
+    padding: 5rem 20% !important;
+}
+
+.misidanvisi p::before {
+    content: "\2022";
+    color: black;
+    font-size: 24px;
+    display: inline-block;
+    width: 20px;
+    text-align: center;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.bg-visi {
+    background-color: rgba(221, 221, 221, 0.5);
+}
+
+
+.box {
+    background-color: rgb(212, 212, 212);
+    margin-bottom: 2rem;
+}
+.box .nilai {
+    background-color: white;
+    border-radius: 20px 0 0 20px;
+    box-shadow: 10px 10px 20px black;
+    border-top: black 1px solid;
+    border-left: black 1px solid;
+}
+.box .isi {
+    background-color: rgb(193, 193, 193);
+    border-radius: 0 20px 20px 0;
+    box-shadow: 10px 10px 20px black;
+}
+
+.box h1 {
+    font-size: 2rem; /* Slightly larger text for elegance */
+    color: black; /* Bootstrap primary blue color */
+}
+
+.box p {
+    font-size: 1.2rem; /* Larger font size for text readability */
+    color: #ffffff; /* Softer text color */
+    margin-bottom: 10px; /* Space between paragraphs */
+}

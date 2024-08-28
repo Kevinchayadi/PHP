@@ -1,5 +1,25 @@
 @extends('Template.main')
 
+@section('meta-description', 'PT Parung Hijau Perkasa di Bogor, Jawa Barat, berfokus pada pertanian, peternakan,
+    perikanan, dan pengelolaan sampah yang berkelanjutan untuk meningkatkan ekonomi lokal dan menjaga keseimbangan
+    lingkungan.')
+
+@section('meta-keywords', 'PT Parung Hijau Perkasa, pertanian berkelanjutan, peternakan ayam kampung, budidaya ikan
+    patin, pengelolaan sampah organik, pisang Cavendish, Sungrow, Adiluhung, Bogor, Jawa Barat, ekonomi lokal')
+
+@section('og-title', 'Tentang Kami - PT. Parung Hijau Perkasa')
+@section('og-description', 'PT Parung Hijau Perkasa berdedikasi untuk berkontribusi pada ekonomi lokal dan menjaga
+    lingkungan melalui praktik pertanian, peternakan, dan pengelolaan sampah yang berkelanjutan.')
+@section('og-url', url('https://parunghijauperkasa.com/about-us'))
+@section('og-type', 'website')
+@section('og-image', url('path-to-your-image/about-us.jpg'))
+
+@section('twitter-title', 'Tentang Kami - PT. Parung Hijau Perkasa')
+@section('twitter-description', 'Kenali lebih jauh tentang PT Parung Hijau Perkasa, perusahaan di Bogor yang berkomitmen
+    pada keberlanjutan dan kesejahteraan masyarakat melalui pertanian dan pengelolaan sumber daya.')
+@section('twitter-url', url('/https://parunghijauperkasa.com/about-us'))
+
+
 @section('tittle', 'Tentang-Kami')
 
 @section('content')
@@ -91,7 +111,7 @@
                     </p>
                 </div>
                 <div class="col-12  " data-aos="fade-right">
-                    <H1 class="text-center" >Misi</H1>
+                    <H1 class="text-center">Misi</H1>
                     <p> Menghasilkan produk berkualitas tinggi dengan proses produksi yang ramah lingkungan.</p>
                     <p>Memberikan nilai tambah kepada masyarakat melalui produk-produk yang berkualitas.</p>
                     <p>Mengembangkan inovasi teknologi untuk meningkatkan efisiensi produksi dan mengurangi dampak

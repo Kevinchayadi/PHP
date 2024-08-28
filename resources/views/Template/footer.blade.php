@@ -2,11 +2,11 @@
     <div class="row">
         <!-- Kolom Pertama: Logo -->
         <div class="col-md-3  d-flex justify-content-center">
-            <img src="{{ asset("../Img/logo php.png") }}" alt="" style="width: 100%;  box-shadow: black 2px 2px 1px; border-radius: 50%">
+            <img src="{{ asset("../Img/logo php.png") }}" alt="Logo PT. Parung Hijau Perkasa" style="width: 100%;  box-shadow: black 2px 2px 1px; border-radius: 50%">
         </div>
         <!-- Kolom Kedua: Informasi Perusahaan -->
         <div class="col-md-5  align-content-center my-5">
-            <h5>PT. Parung Hijau Perkasa</h5>
+            <h1>PT. Parung Hijau Perkasa</h1>
             <p>Alamat: AKR Tower Lt 12, Jalan Panjang No 5, RT.11/RW.10, Kebon Jeruk, RT.11/RW.10, Kb. Jeruk, Kec. Kb. Jeruk, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta </p>
             <p>Email: info@parunghijau.com</p>
         </div>
